@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIWebViewDelegate>
+{
+    UIActivityIndicatorView *_progressIndView;
+}
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+
+- (IBAction)WebGoForward:(id)sender;
+- (IBAction)WebGoBack:(id)sender;
+- (IBAction)WebStopLoading:(id)sender;
+- (IBAction)WebReflesh:(id)sender;
 
 @end

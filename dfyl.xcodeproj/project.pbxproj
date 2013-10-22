@@ -13,8 +13,6 @@
 		520885C61814BFFC00F4BBCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 520885C41814BFFC00F4BBCB /* InfoPlist.strings */; };
 		520885C81814BFFC00F4BBCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 520885C71814BFFC00F4BBCB /* main.m */; };
 		520885CC1814BFFC00F4BBCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 520885CB1814BFFC00F4BBCB /* AppDelegate.m */; };
-		520885CF1814BFFC00F4BBCB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520885CD1814BFFC00F4BBCB /* Main_iPhone.storyboard */; };
-		520885D21814BFFC00F4BBCB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520885D01814BFFC00F4BBCB /* Main_iPad.storyboard */; };
 		520885D51814BFFC00F4BBCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520885D41814BFFC00F4BBCB /* ViewController.m */; };
 		520885D71814BFFC00F4BBCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520885D61814BFFC00F4BBCB /* Images.xcassets */; };
 		520885DE1814BFFC00F4BBCB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520885DD1814BFFC00F4BBCB /* XCTest.framework */; };
@@ -22,6 +20,8 @@
 		520885E01814BFFC00F4BBCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520885BF1814BFFC00F4BBCB /* UIKit.framework */; };
 		520885E81814BFFC00F4BBCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 520885E61814BFFC00F4BBCB /* InfoPlist.strings */; };
 		520885EA1814BFFC00F4BBCB /* dfylTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 520885E91814BFFC00F4BBCB /* dfylTests.m */; };
+		5208860918166E7B00F4BBCB /* Main_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5208860818166E7B00F4BBCB /* Main_iPhone.xib */; };
+		5208860B181672C600F4BBCB /* Main_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5208860A181672C600F4BBCB /* Main_iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,6 @@
 		520885C91814BFFC00F4BBCB /* dfyl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dfyl-Prefix.pch"; sourceTree = "<group>"; };
 		520885CA1814BFFC00F4BBCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		520885CB1814BFFC00F4BBCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		520885CE1814BFFC00F4BBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		520885D11814BFFC00F4BBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		520885D31814BFFC00F4BBCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		520885D41814BFFC00F4BBCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		520885D61814BFFC00F4BBCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +53,8 @@
 		520885E51814BFFC00F4BBCB /* dfylTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dfylTests-Info.plist"; sourceTree = "<group>"; };
 		520885E71814BFFC00F4BBCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		520885E91814BFFC00F4BBCB /* dfylTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dfylTests.m; sourceTree = "<group>"; };
+		5208860818166E7B00F4BBCB /* Main_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Main_iPhone.xib; sourceTree = "<group>"; };
+		5208860A181672C600F4BBCB /* Main_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Main_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +116,10 @@
 			children = (
 				520885CA1814BFFC00F4BBCB /* AppDelegate.h */,
 				520885CB1814BFFC00F4BBCB /* AppDelegate.m */,
-				520885CD1814BFFC00F4BBCB /* Main_iPhone.storyboard */,
-				520885D01814BFFC00F4BBCB /* Main_iPad.storyboard */,
 				520885D31814BFFC00F4BBCB /* ViewController.h */,
 				520885D41814BFFC00F4BBCB /* ViewController.m */,
+				5208860818166E7B00F4BBCB /* Main_iPhone.xib */,
+				5208860A181672C600F4BBCB /* Main_iPad.xib */,
 				520885D61814BFFC00F4BBCB /* Images.xcassets */,
 				520885C21814BFFC00F4BBCB /* Supporting Files */,
 			);
@@ -231,9 +231,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				520885D21814BFFC00F4BBCB /* Main_iPad.storyboard in Resources */,
 				520885D71814BFFC00F4BBCB /* Images.xcassets in Resources */,
-				520885CF1814BFFC00F4BBCB /* Main_iPhone.storyboard in Resources */,
+				5208860B181672C600F4BBCB /* Main_iPad.xib in Resources */,
+				5208860918166E7B00F4BBCB /* Main_iPhone.xib in Resources */,
 				520885C61814BFFC00F4BBCB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,22 +284,6 @@
 				520885C51814BFFC00F4BBCB /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		520885CD1814BFFC00F4BBCB /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				520885CE1814BFFC00F4BBCB /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		520885D01814BFFC00F4BBCB /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				520885D11814BFFC00F4BBCB /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		520885E61814BFFC00F4BBCB /* InfoPlist.strings */ = {
@@ -395,7 +379,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "dfyl/dfyl-Prefix.pch";
 				INFOPLIST_FILE = "dfyl/dfyl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -408,7 +394,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "dfyl/dfyl-Prefix.pch";
 				INFOPLIST_FILE = "dfyl/dfyl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -474,6 +462,7 @@
 				520885EF1814BFFC00F4BBCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		520885F01814BFFC00F4BBCB /* Build configuration list for PBXNativeTarget "dfylTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +471,7 @@
 				520885F21814BFFC00F4BBCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
